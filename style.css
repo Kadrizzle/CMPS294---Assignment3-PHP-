@@ -1,0 +1,49 @@
+body{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+}
+
+form{
+    overflow: auto;
+}
+
+h1.formTitle{
+    padding:20px;
+    text-align: center;
+    border: solid black 1px;
+}
+
+hr{
+    border-color: black;
+    border-width: 2px;
+    width: 100%;
+}
+
+div.segment{
+    width: 100%;
+    align-content: center;
+    padding: 20px;
+}
+
+div.segment label{
+    float: left;
+    margin-left: 20%;
+    width: 30%;
+}
+
+div.segment input{
+    float: left;
+    margin-right: 20%;
+    width: 30%;
+}
+
+div.segment .submitBtn{
+    float: left;
+    width: 70%;
+    margin: 20px 15%;
+}
+
+hr.dotted{
+    border: 1px black dashed;
+}
