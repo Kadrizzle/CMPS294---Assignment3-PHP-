@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <title>ASSIGNMENT 3</title>
+  </head>
+  <body>
+    <h2>Book Inventory Management</h2>
+    <form method="post" action="frontWebPage.php">
+      <hr />
+      <table style="margin-left: auto; margin-right: auto; width: 450px">
+        <tr>
+          <td>
+            <table style="margin-left: auto; margin-right: auto">
+              <tr>
+                <td>
+                  <p>Select Operation:</p>
+                </td>
+                <td>
+                  <select name="main">
+                    <option value="1">Add New</option>
+                    <option value="2">Delete</option>
+                    <option value="3">Search</option>
+                  </select>
+                </td>
+              </tr>
+            </table>
+            <hr />
+            <h2>Book Fields</h2>
+            <table style="margin-left: auto; margin-right: auto">
+              <tr>
+                <td class="inputs"><p>Title:</p></td>
+                <td><input type="text" name="title" /></td>
+              </tr>                                                             
+              <tr>
+                <td class="inputs"><p>Author:</p></td>
+                <td><input type="text" name="author" /></td>
+              </tr>
+              <tr>
+                <td class="inputs"><p>ISBN:</p></td>
+                <td><input type="text" name="isbn" /></td>
+              </tr>
+              <tr>
+                <td class="inputs">Publisher:</td>
+                <td><input type="text" name="publisher" /></td>
+              </tr>
+              <tr>
+                <td class="inputs">Year:</td>
+                <td>
+                  <input type="text" name="year" margin-left="100px" />
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <input type="submit" value="GO!" />
+                </td>
+              </tr>
+            </table>
+            <hr />
+          </td>
+        </tr>
+      </table> 
+    </form>
+</body>                                        
+</html>

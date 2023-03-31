@@ -1,0 +1,13 @@
+hr {
+    align-items: center;
+    color: black;
+    width: 400px;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  .inputs {
+    text-align: right;
+  }
